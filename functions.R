@@ -10,6 +10,7 @@ get_weather <- function (start_date, end_date = start_date){
   # not finished
 }
 
+
 #' @export
 plot_temperature <- function(start_date, end_date = start_date, city){
   # not finished
