@@ -1,10 +1,9 @@
-# Keeping libraries here in case I write something wrong
+# Keeping libraries here in case I write something wrong, to be deleted
 library(shiny)
 library(bslib)
 library(httr)
 library(jsonlite)
 library(ggplot2)
-
 
 #' @export
 get_weather <- function (start_date, end_date = start_date){
