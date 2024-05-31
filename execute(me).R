@@ -1,13 +1,12 @@
 # Shiny app for plotting weather data
+devtools::install_github("asarafoglou-ptns/Fu_WeatherWhatever/WeatherWhatever")
 library(shiny)
-library(bslib)
 library(httr)
 library(jsonlite)
 library(ggplot2)
 library(leaflet)
 library(stringr)
-library(lubridate)
-source('~/R/functions.R')
+library(WeatherWhatever)
 
 ui <- fluidPage(
   titlePanel("Weather Data Plotter"),

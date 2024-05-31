@@ -7,7 +7,6 @@ Description: The Weather Data Plotter is an application developed using R Shiny 
 License: CC BY 4.0
 Encoding: UTF-8
 Imports:
-	bslib,
 	httr,
 	jsonlite,
 	ggplot2,
