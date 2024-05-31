@@ -1,4 +1,4 @@
-data <- data.frame()
+
 #' @export
 get_weather <- function (start_date, end_date = start_date){
   start_date_d <- as.Date(start_date)
