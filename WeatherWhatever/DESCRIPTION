@@ -1,0 +1,16 @@
+Package: WeatherWhatever
+Title: Weather Data Plotter
+Version: 1.0
+Authors@R: 
+    person("Bohan", "Fu", , "fubohan@gmail.com", role = c("aut", "cre"))
+Description: The Weather Data Plotter is an application developed using R Shiny that allows users to plot historical weather data for any given city. Users can select a city by clicking on the map or entering by text, specify a date range, and visualize temperature and weather data over time.
+License: CC BY 4.0
+Encoding: UTF-8
+Imports:
+	bslib,
+	httr,
+	jsonlite,
+	ggplot2,
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+
